@@ -1,0 +1,10 @@
+name = "lambda_calculus"
+version = "0.1.0"
+defaultTargets = ["lambda_calculus"]
+
+[[lean_lib]]
+name = "LambdaCalculus"
+
+[[lean_exe]]
+name = "lambda_calculus"
+root = "Main"
